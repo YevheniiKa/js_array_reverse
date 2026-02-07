@@ -9,7 +9,9 @@ describe(`Function 'arrayReverse':`, () => {
   });
 
   it(`should return an array`, () => {
-    expect(arrayReverse([1, 3, 4, 123, 125, 66])).toBeInstanceOf(Array);
+    expect(
+      arrayReverse(["1", "3", "4", "123", "125", "Hello dude"]),
+    ).toBeInstanceOf(Array);
   });
 
   it(`should return an empty string
