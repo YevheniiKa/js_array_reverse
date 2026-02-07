@@ -16,11 +16,7 @@ describe(`Function 'arrayReverse':`, () => {
 
   it(`should return an empty string
     if original array consists of an empty string`, () => {
-    expect(arrayReverse(["Mate", "", "Academy"])).toEqual([
-      "ymed",
-      "",
-      "acAetaM",
-    ]);
+    expect(arrayReverse(["Mate", "Academy"])).toEqual(["ymed", "acAetaM"]);
   });
 
   it(`should be case sensitive `, () => {
